@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <script src="/js/app.js" defer></script>
+    <title>quiz app</title>
+</head>
+<body>
+    <section class="quiz-section">
+        <div id="start-screen">
+            <h1>The big Norwegian quiz!</h1>
+            <button id="start-button" class="button">Start Quiz</button>
+        </div>
+
+        <section id="quiz-frame" class="hidden">
+            <div class="prog-bar">
+                <div id="progress"></div>
+            </div>
+            <h2 id="text-question">Question will show here</h2>
+            <div id="choices-section"></div>
+            <p id="question-number">Question <span id="current-question">1</span> of <span id="total-questions">8</span>
+            </p>
+            <button id="nxt-button" class="button">Next</button>
+        </section>
+
+        <section id="result-screen" class="hidden">
+            <h2>The Score: <span id="the-score"></span></h2>
+            <button id="review-button" class="button">Review Answer</button>
+            <button id="restart-button" class="button">Restart Quiz</button>
+        </section>
+
+        <section id="review-show" class="hidden">
+            <h2>Review Your Answers</h2>
+            <ul id="list-of-reviews"></ul>
+            <button id="restart-button-2" class="button">Restart Quiz</button>
+        </section>
+    </section>
+</body>
+</html>
