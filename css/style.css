@@ -1,0 +1,30 @@
+.quiz-section {
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(50, 20, 50);
+}
+.hidden {
+    display: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: forestgreen;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px auto;
+}
+.button:hover {
+    background-color: rgb(13, 98, 13);
+}
