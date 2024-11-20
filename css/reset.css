@@ -7,9 +7,14 @@
     font-family: "playwrite";
     src: url(/assets/font/playwritei.ttf) format(truetype);
 }
+@font-face {
+    font-family: "bebas-regular";
+    src: url(/assets/font/bebas-regular.ttf) format(truetype);
+}
 
 body {
-  font-family: "playwrite", Arial;
+  font-family: "bebas-regular", Arial;
+  font-size: 1.5rem;
   background-color: floralwhite;
   display: flex;
   justify-content: center;
