@@ -20,7 +20,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedChoices = [];
 
-// questions and the right answers
+// questions and the right answers is stored in separate objects in an array 
 const questions = [
     {
       question: 'What is the capital city of Norway?',
@@ -134,7 +134,7 @@ const questions = [
     showQuestion();
   }
 
-  // function to show questions and choices
+  // function to show questions and choices using arrow function 
   const showQuestion = () => {
     const currentQuestion = questions[currentQuestionIndex];
     textQuestion.textContent = currentQuestion.question;
