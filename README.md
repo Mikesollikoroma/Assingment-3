@@ -5,7 +5,7 @@
 
 ## Links 
 - Github: https://github.com/Mikesollikoroma/Assingment-3.git
-- Netlify: 
+- Netlify: https://assingment-3-hoyskolenkristiania.netlify.app
 
  ### Navigation 
  - Start button 
